@@ -196,46 +196,6 @@
           }
         }
       },
-      "HarfBuzzSharp/7.3.0.1": {
-        "dependencies": {
-          "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.1",
-          "HarfBuzzSharp.NativeAssets.macOS": "7.3.0.1"
-        },
-        "runtime": {
-          "lib/net6.0/HarfBuzzSharp.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.3.0.1"
-          }
-        }
-      },
-      "HarfBuzzSharp.NativeAssets.macOS/7.3.0.1": {
-        "runtimeTargets": {
-          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
-            "rid": "osx",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "HarfBuzzSharp.NativeAssets.Win32/7.3.0.1": {
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "log4net/2.0.14": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "6.0.1"
@@ -952,15 +912,163 @@
           }
         }
       },
-      "QuestPDF/2023.12.3": {
-        "dependencies": {
-          "SkiaSharp": "2.88.7",
-          "SkiaSharp.HarfBuzz": "2.88.7"
-        },
+      "QuestPDF/2025.5.1": {
         "runtime": {
           "lib/net8.0/QuestPDF.dll": {
-            "assemblyVersion": "2023.12.3.0",
-            "fileVersion": "2023.12.3.0"
+            "assemblyVersion": "2025.5.1.0",
+            "fileVersion": "2025.5.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libQuestPdfSkia.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libcrypto.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libjpeg.so.8": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libqpdf.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libQuestPdfSkia.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libcrypto.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libjpeg.so.8": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libqpdf.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libQuestPdfSkia.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libcrypto.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libjpeg.so.8": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libqpdf.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libQuestPdfSkia.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libcrypto.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libjpeg.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libqpdf.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libQuestPdfSkia.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libcrypto.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libjpeg.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libqpdf.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/QuestPdfSkia.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libgcc_s_seh-1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libstdc++-6.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libwinpthread-1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.0.0"
+          },
+          "runtimes/win-x64/native/qpdf.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/QuestPdfSkia.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libgcc_s_dw2-1.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libstdc++-6.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libwinpthread-1.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.0.0"
+          },
+          "runtimes/win-x86/native/qpdf.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1027,99 +1135,6 @@
           "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll": {
             "assemblyVersion": "1.2.0.246",
             "fileVersion": "1.2.0.246"
-          }
-        }
-      },
-      "SkiaSharp/2.88.7": {
-        "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.7",
-          "SkiaSharp.NativeAssets.macOS": "2.88.7"
-        },
-        "runtime": {
-          "lib/net6.0/SkiaSharp.dll": {
-            "assemblyVersion": "2.88.0.0",
-            "fileVersion": "2.88.7.0"
-          }
-        }
-      },
-      "SkiaSharp.HarfBuzz/2.88.7": {
-        "dependencies": {
-          "HarfBuzzSharp": "7.3.0.1",
-          "SkiaSharp": "2.88.7"
-        },
-        "runtime": {
-          "lib/net6.0/SkiaSharp.HarfBuzz.dll": {
-            "assemblyVersion": "2.88.0.0",
-            "fileVersion": "2.88.7.0"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.7": {
-        "dependencies": {
-          "SkiaSharp": "2.88.7"
-        },
-        "runtimeTargets": {
-          "runtimes/linux-arm/native/libSkiaSharp.so": {
-            "rid": "linux-arm",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-arm64/native/libSkiaSharp.so": {
-            "rid": "linux-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
-            "rid": "linux-musl-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/linux-x64/native/libSkiaSharp.so": {
-            "rid": "linux-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.macOS/2.88.7": {
-        "runtimeTargets": {
-          "runtimes/osx/native/libSkiaSharp.dylib": {
-            "rid": "osx",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "SkiaSharp.NativeAssets.WebAssembly/2.88.7": {},
-      "SkiaSharp.NativeAssets.Win32/2.88.7": {
-        "runtimeTargets": {
-          "runtimes/win-arm64/native/libSkiaSharp.dll": {
-            "rid": "win-arm64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x64/native/libSkiaSharp.dll": {
-            "rid": "win-x64",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          },
-          "runtimes/win-x86/native/libSkiaSharp.dll": {
-            "rid": "win-x86",
-            "assetType": "native",
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
-      "SkiaSharp.Views.Blazor/2.88.7": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "8.0.12",
-          "SkiaSharp": "2.88.7",
-          "SkiaSharp.NativeAssets.WebAssembly": "2.88.7"
-        },
-        "runtime": {
-          "lib/net6.0/SkiaSharp.Views.Blazor.dll": {
-            "assemblyVersion": "2.88.0.0",
-            "fileVersion": "2.88.7.0"
           }
         }
       },
@@ -1710,9 +1725,7 @@
         "dependencies": {
           "AspNetCore.Reporting": "2.1.0",
           "Modelo": "1.0.0",
-          "QuestPDF": "2023.12.3",
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.7",
-          "SkiaSharp.Views.Blazor": "2.88.7"
+          "QuestPDF": "2025.5.1"
         },
         "runtime": {
           "Reportes.dll": {
@@ -1867,27 +1880,6 @@
       "sha512": "sha512-iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
       "path": "fluentvalidation/10.3.6",
       "hashPath": "fluentvalidation.10.3.6.nupkg.sha512"
-    },
-    "HarfBuzzSharp/7.3.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/6z6TQBqWWbVpLUw7E/82HZKLT3OAzg/w6z8I6JFNFcYa3nM9RnZ8XGos9nD4buAzThLHpqPw/rb8FdZXEORAQ==",
-      "path": "harfbuzzsharp/7.3.0.1",
-      "hashPath": "harfbuzzsharp.7.3.0.1.nupkg.sha512"
-    },
-    "HarfBuzzSharp.NativeAssets.macOS/7.3.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4i6e8WhXF04At1rZ904xjt5g10W86u6B2SpzWAw+cfY4mzfyUV0hgZHIWsE6PsW8a9bP/bSdsZx/Rt4UIroi4w==",
-      "path": "harfbuzzsharp.nativeassets.macos/7.3.0.1",
-      "hashPath": "harfbuzzsharp.nativeassets.macos.7.3.0.1.nupkg.sha512"
-    },
-    "HarfBuzzSharp.NativeAssets.Win32/7.3.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-NxzjhGcY7fYCu51BsanQurXXyqGogZiMzFBpDrZg49jNhT/S0QWYe/uvmP9YbwagprKQ+2tbGT0cw1BvxJciXQ==",
-      "path": "harfbuzzsharp.nativeassets.win32/7.3.0.1",
-      "hashPath": "harfbuzzsharp.nativeassets.win32.7.3.0.1.nupkg.sha512"
     },
     "log4net/2.0.14": {
       "type": "package",
@@ -2393,12 +2385,12 @@
       "path": "quartz.extensions.hosting/3.7.0",
       "hashPath": "quartz.extensions.hosting.3.7.0.nupkg.sha512"
     },
-    "QuestPDF/2023.12.3": {
+    "QuestPDF/2025.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zQnN7o5GYizxcgNSPIesjl2GGmJs6eAo3VL4uthvAFVRfnCbc3XsJ6mDoDxtHdgoc39i85GSKwOst8WPcHSTjQ==",
-      "path": "questpdf/2023.12.3",
-      "hashPath": "questpdf.2023.12.3.nupkg.sha512"
+      "sha512": "sha512-oRjdICOO28qkO9zTw3mFzFG1w51YAG6dWgC2g7JjzlsQF4HbY0iTa0uluwyPNZckPTv8v9+krSUyjjtspKhi7g==",
+      "path": "questpdf/2025.5.1",
+      "hashPath": "questpdf.2025.5.1.nupkg.sha512"
     },
     "Radzen.Blazor/7.0.7": {
       "type": "package",
@@ -2455,55 +2447,6 @@
       "sha512": "sha512-zvWa/L02JHNatdtjya6Swpudb2YEHaOLHL1eRrqpjm71iGRNUNONO5adUF/9CHbSJbzhELW1UoH4NGy7n7+3bQ==",
       "path": "sharpziplib/1.2.0",
       "hashPath": "sharpziplib.1.2.0.nupkg.sha512"
-    },
-    "SkiaSharp/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-LJHAMrbWO00J7jXWLWehyjqFo29T4VzABimfJb4nICqpEe3c/KvQGWL4ItON8ymzhxYOeFgyxeRzuNzO4GHSug==",
-      "path": "skiasharp/2.88.7",
-      "hashPath": "skiasharp.2.88.7.nupkg.sha512"
-    },
-    "SkiaSharp.HarfBuzz/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-4Vd+GpokorZNpDvUp09zjK6CMXN35zyJtNvzkGtS1TsXlG/5yA3lWTsQIU0nSQjfgpYql0tSEU5+WTsjxljugg==",
-      "path": "skiasharp.harfbuzz/2.88.7",
-      "hashPath": "skiasharp.harfbuzz.2.88.7.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KkMftfAz1lGPnuhyecuLJzeyvMjXtHp9cYVQc/oeLhF8KYrxtUxRy5LOX5oROhyLHy/CyqEl9MoAhqmSH7cV7g==",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.7",
-      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.7.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.macOS/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3jNzco4VjcYPFNxR9aNWcgweFXbTSdM1VpNRzCS4X0i1A1OuNqcaulrAvmntNpujeWxHo9e6WGh6FN8Jf5+XhA==",
-      "path": "skiasharp.nativeassets.macos/2.88.7",
-      "hashPath": "skiasharp.nativeassets.macos.2.88.7.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.WebAssembly/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-elmOOQTO0QXmnnHx7GliF7VNJqZkWgPqqPsXapEN0EEZJ9fGblYWmD6cqxTwaRTMCUFeLpn8+gTzY8j000MxZQ==",
-      "path": "skiasharp.nativeassets.webassembly/2.88.7",
-      "hashPath": "skiasharp.nativeassets.webassembly.2.88.7.nupkg.sha512"
-    },
-    "SkiaSharp.NativeAssets.Win32/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BCXmWdQ0oVck9vRwC8U3ocSaTHEx28VB+6qw9OxGIMQ86iO5bp4Flqk3IXH0l9Pbr7vWAUOpI212iaL9mTaUZQ==",
-      "path": "skiasharp.nativeassets.win32/2.88.7",
-      "hashPath": "skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
-    },
-    "SkiaSharp.Views.Blazor/2.88.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-TRAfnG5IhUTJvPrCT9I6Hsaa/n7nlCSbYqhbUYPauYaRP179xgziV3eMP0rIThsmUbIQkK3Xs1z1fR5hi4jy5Q==",
-      "path": "skiasharp.views.blazor/2.88.7",
-      "hashPath": "skiasharp.views.blazor.2.88.7.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",
